@@ -95,8 +95,7 @@ const screenHeight = height;
             </Text>
 
             <Pressable
-              onPress={() => router.push('/formulario')}
-              accessibilityRole="button"
+              onPress={() => router.push('/formulario')}              accessibilityRole="button"
               accessibilityLabel="Iniciar questionário"
               style={({ pressed }) => [
               styles.button,
